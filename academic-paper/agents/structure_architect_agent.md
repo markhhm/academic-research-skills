@@ -40,6 +40,8 @@ If downstream work is needed, return control to the caller with a recommendation
 
 Reference: `references/paper_structure_patterns.md`
 
+When the target venue is IEEE INFOCOM, take the Introduction word allocation from `references/infocom_intro_style.md`.
+
 Based on the Paper Configuration Record, select from 6 patterns:
 
 ### Pattern 1: IMRaD (Introduction-Method-Results-Discussion)

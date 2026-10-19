@@ -1,206 +1,246 @@
-# Top Journals by Field — Key Academic Discipline Journal Directory
+# Top Venues by Field — Networking, Security & Systems
 
-This document is used by `field_analyst_agent` and `eic_agent` as a reference for calibrating the Journal-Fit Reviewer identity and assessing journal fit.
+This document is used by `field_analyst_agent` and `eic_agent` as a reference for calibrating the Journal-Fit Reviewer identity and assessing venue fit.
 
----
+**Ranking systems referenced:**
+- **CCF** = Chinese Computer Society, 7th Edition (2026)
+- **115年** = NYCU College of Computer Science (資工學院) 115年 top/important international conference list, dated 2026-03-23 (`Top-conf-List-20260323.xlsx`, sheets 國際會議等級A + 國際會議等級B). The full list, all CS areas, is in [`top_conf_list_115.csv`](top_conf_list_115.csv) (columns: `level` A/B, `area`, `no`, `venue`, citations, `note` = 教評會 approval date). Tables below last refreshed against it 2026-04-23.
+- **Inst.** = Institutional doctoral program grading (115年 conference list + 博士班期刊論文類別認定辦法 113.01.09):
 
-## 1. Education
+| Code | Rule |
+|------|------|
+| 會議等級A | On the 115年 等級A (頂尖) sheet |
+| 會議等級B | On the 115年 等級B (重要) sheet |
+| 會議等級C | Other peer-reviewed conference |
+| 期刊A類 | JCR Q1 (top 25%) in any non-Neg-JCR-c category, and not on Neg-A / Neg-B |
+| 期刊B類 | JCR Q1+Q2 (top 50%), and not on Neg-B |
+| 期刊C類 | Other SCI / SCIE / EI / SSCI / A&HCI journal |
 
-### Higher Education
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Studies in Higher Education* | Taylor & Francis | 5-7 | Emphasizes theoretical depth, international comparison, policy implications |
-| *Higher Education* | Springer | 4-6 | Accepts diverse methodologies, values contextual description |
-| *Research in Higher Education* | Springer | 3-5 | Prefers quantitative research, large datasets |
-| *Journal of Higher Education* | Taylor & Francis | 3-5 | Primarily U.S. context, values empirical research |
-| *Quality in Higher Education* | Taylor & Francis | 2-4 | Quality assurance topics, HEEACT/ENQA related |
-| *Assessment & Evaluation in Higher Education* | Taylor & Francis | 4-6 | Assessment and evaluation topics |
-| *Higher Education Research & Development* | Taylor & Francis | 3-5 | Teaching and learning research |
-| *European Journal of Higher Education* | Taylor & Francis | 2-3 | European perspective, Bologna Process |
+Neg-A (never 期刊A類, whatever the JCR quartile) includes IEEE Access, Scientific Reports, PLOS ONE, Heliyon, SAGE Open; the full Neg-A / Neg-B lists are in the appendix of the 認定辦法. A poster at a 頂尖 venue counts at 50% only with a program-chair letter stating oral/poster was not split by quality and a full-length paper in the proceedings (102.3.20 教評會).
 
-### General Education
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Review of Educational Research* | SAGE | 10-12 | Accepts only review articles, highest standards |
-| *Educational Researcher* | SAGE | 6-9 | Interdisciplinary education research, policy-relevant |
-| *American Educational Research Journal* | SAGE | 5-7 | Diverse methodologies, U.S. context |
-| *British Educational Research Journal* | Wiley | 3-5 | U.K. context, critical perspectives |
-| *Comparative Education Review* | U Chicago Press | 2-4 | Comparative education, cross-national research |
-
-### Educational Technology
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Computers & Education* | Elsevier | 10-13 | Primarily empirical research, large samples |
-| *The Internet and Higher Education* | Elsevier | 7-10 | Online learning, blended instruction |
-| *British Journal of Educational Technology* | Wiley | 5-7 | Balances theory and practice |
-| *Educational Technology Research & Development* | Springer | 4-6 | Instructional design, learning sciences |
+**Cross-check reminder:** The 115年 list only has 等級A (頂尖) and 等級B (重要) sheets. Any venue not on either sheet is either (a) 會議等級C under institutional rules, or (b) not institutionally recognised. NSDI, for instance, is **not in 115年 list** — counts as 等級C under strict institutional rules despite CCF-A.
 
 ---
 
-## 2. Computer Science / AI
+## 1. Computer Networking — Journals
 
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Nature Machine Intelligence* | Springer Nature | 20-25 | High-impact AI research, interdisciplinary |
-| *Artificial Intelligence* | Elsevier | 8-12 | Foundational AI theory and methods |
-| *Journal of Machine Learning Research* | JMLR | 4-7 | Machine learning theory and algorithms |
-| *IEEE Transactions on Pattern Analysis and Machine Intelligence* | IEEE | 20-25 | Computer vision, pattern recognition |
-| *ACM Computing Surveys* | ACM | 15-18 | High-quality survey articles |
-| *Computers in Human Behavior* | Elsevier | 8-10 | Human-computer interaction, user behavior |
+### Tier A (Top)
 
----
+| Abbrev. | Journal | Publisher | CCF | Inst. | Notes |
+|---------|---------|-----------|-----|-------|-------|
+| JSAC | IEEE Journal on Selected Areas in Communications | IEEE | A | 期刊A類 (JCR Q1) | Thematic issues; networking flagship |
+| TMC | IEEE Transactions on Mobile Computing | IEEE | A | 期刊A類 (JCR Q1) | Mobile + satellite transport |
+| TON | IEEE Transactions on Networking (formerly IEEE/ACM ToN) | IEEE | A | 期刊A類 (JCR Q1) | Primary networking journal |
 
-## 3. Business & Management
+### Tier B
 
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Academy of Management Review* | AOM | 10-13 | Pure theory, conceptual innovation |
-| *Academy of Management Journal* | AOM | 9-11 | Empirical research, large samples |
-| *Strategic Management Journal* | Wiley | 8-10 | Strategic management, competitive advantage |
-| *Administrative Science Quarterly* | SAGE | 9-12 | Organizational theory, boutique papers |
-| *Journal of Management* | SAGE | 10-13 | General management journal |
-| *Organization Science* | INFORMS | 5-7 | Organizational behavior, decision science |
-| *Management Science* | INFORMS | 5-7 | Quantitative management, decision models |
+| Abbrev. | Journal | Publisher | CCF | Inst. | Notes |
+|---------|---------|-----------|-----|-------|-------|
+| TOIT | ACM Transactions on Internet Technology | ACM | B | — | Internet architecture, protocols |
+| TOSN | ACM Transactions on Sensor Networks | ACM | B | — | IoT, sensor networking |
+| CN | Computer Networks | Elsevier | B | 期刊B類 (JCR Q2) | Broad networking; survey-friendly |
+| TCOM | IEEE Transactions on Communications | IEEE | B | — | Physical + network layer comms |
+| TWC | IEEE Transactions on Wireless Communications | IEEE | B | — | Wireless, satellite links |
 
----
+### Tier C
 
-## 4. Social Sciences
+| Abbrev. | Journal | Publisher | CCF | Inst. | Notes |
+|---------|---------|-----------|-----|-------|-------|
+| CC | Computer Communications | Elsevier | C | 期刊B類 (JCR Q2) | LEO routing, transport |
+| TNSM | IEEE Trans. on Network and Service Management | IEEE | C | 期刊B類 (JCR Q2) | SDN/NFV management, P4 |
+| JNCA | Journal of Network and Computer Applications | Elsevier | C | 期刊B類 (JCR Q2) | Applied networking |
+| IoT-J | IEEE Internet of Things Journal | IEEE | C | 期刊A類 (JCR Q1) | IoT + satellite IoT |
+| MONET | Mobile Networks and Applications | Springer | C | — | Mobile, satellite |
+| WCMC | Wireless Communications and Mobile Computing | Wiley | C | — | — |
+| Ad Hoc | Ad Hoc Networks | Elsevier | C | — | Self-organizing networks |
 
-### Sociology
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *American Sociological Review* | SAGE | 6-8 | Top U.S. sociology journal |
-| *American Journal of Sociology* | U Chicago Press | 4-6 | Balances theory and empirical work |
-| *Annual Review of Sociology* | Annual Reviews | 7-10 | High-quality reviews |
-| *British Journal of Sociology* | Wiley | 3-5 | Critical theory, European perspectives |
-
-### Political Science / Public Policy
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *American Political Science Review* | Cambridge | 5-7 | Top political science journal |
-| *Journal of Policy Analysis and Management* | Wiley | 3-5 | Policy analysis, causal inference |
-| *Public Administration Review* | Wiley | 5-8 | Public administration, governance |
-| *Policy Sciences* | Springer | 3-5 | Policy process theory |
-| *Journal of Public Policy* | Cambridge | 3-5 | Comparative public policy |
-
-### Psychology
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Psychological Bulletin* | APA | 18-22 | High-quality meta-analyses |
-| *American Psychologist* | APA | 14-17 | Interdisciplinary psychology |
-| *Journal of Applied Psychology* | APA | 6-8 | Applied psychology research |
-| *Educational Psychology Review* | Springer | 8-11 | Educational psychology reviews |
+> **Note:** IoT-J is CCF-C but JCR Q1, qualifying as 期刊A類 under institutional rules. TNSM/CN/JNCA/CC are CCF-B/C but JCR Q2, qualifying as 期刊B類.
 
 ---
 
-## 5. Engineering
+## 2. Computer Networking — Conferences
 
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Nature Engineering* | Springer Nature | — | Interdisciplinary engineering breakthroughs |
-| *Journal of Engineering Education* | ASEE/Wiley | 3-5 | Engineering education research |
-| *IEEE Transactions* (various branches) | IEEE | 5-15 | Technical contributions, experimental validation |
-| *International Journal of Engineering Education* | TEMPUS | 1-3 | International engineering education journal |
-| *European Journal of Engineering Education* | Taylor & Francis | 2-4 | European engineering education |
+### Tier A (Top)
+
+| Abbrev. | Conference | Org. | CCF | 115年 | Inst. | Notes |
+|---------|-----------|------|-----|-------|-------|-------|
+| SIGCOMM | ACM SIGCOMM | ACM | A | 頂尖 | 會議等級A | Premier networking venue |
+| INFOCOM | IEEE INFOCOM | IEEE | A | 頂尖 | 會議等級A | Largest networking conference |
+| MobiCom | ACM MobiCom | ACM | A | 頂尖 | 會議等級A | Mobile computing + networking |
+| NSDI | USENIX NSDI | USENIX | A | **not on 115年 list** | 會議等級C (strict) / A (community) | CCF-A but institution 不認列；advisor may override |
+| MobiHoc | ACM MobiHoc | ACM/IEEE | B | 頂尖 | 會議等級A | Ad hoc + mobile theory (institution counts as 頂尖) |
+| SIGMETRICS | ACM SIGMETRICS / POMACS | ACM | B* | 頂尖 | 會議等級A | Measurement + performance (*CCF-B in systems, 會議A per institution) |
+
+### Tier B (Important)
+
+| Abbrev. | Conference | Org. | CCF | 115年 | Inst. | Notes |
+|---------|-----------|------|-----|-------|-------|-------|
+| SenSys | ACM SenSys | ACM | B | 重要 | 會議等級B | Embedded sensor systems (115年 marks 重要, not 頂尖) |
+| CoNEXT | ACM CoNEXT | ACM | B | **not on 115年 list** | 會議等級C (strict) | Emerging networking; CCF-B but not institutionally listed |
+| ICNP | IEEE ICNP | IEEE | B | 重要 | 會議等級B | Network protocols |
+| MobiSys | ACM MobiSys | ACM | B | 重要 | 會議等級B | Mobile systems |
+| IMC | ACM IMC | ACM/USENIX | B | — | — | Internet measurement (not on 115年 list) |
+| IWQoS | IEEE/ACM IWQoS | IEEE | B | — | — | Quality of service |
+| IPTPS | USENIX Peer-to-Peer Systems | USENIX | — | 重要 | 會議等級B | Per 115年 (line 67 of 等級B sheet); note: venue defunct since 2010, historical record |
+
+### Tier C (Peer-Reviewed)
+
+| Abbrev. | Conference | Org. | CCF | 115年 | Inst. | Notes |
+|---------|-----------|------|-----|-------|-------|-------|
+| GLOBECOM | IEEE GLOBECOM | IEEE | C | 重要 | 會議等級B | Large IEEE comms venue (108.07.25 institutional approval). Annual Dec. |
+| ICC | IEEE ICC | IEEE | C | 重要 | 會議等級B (Oral only) | International comms (102.6.20 approval; only Oral papers count) |
+| NOMS | IEEE/IFIP NOMS + IM | IEEE/IFIP | C | 重要 | 會議等級B | Network operations & management (113.01.09 approval) |
+| WCNC | IEEE WCNC | IEEE | C | 重要 | 會議等級B | Wireless comms |
+| **HPSR** | **IEEE HPSR** | **IEEE** | — | **重要** | **會議等級B** | **High Performance Switching and Routing (112.05.15 approval). Directly relevant to P4/programmable data-plane / switching papers.** |
+| LCN | IEEE LCN | IEEE | C | — | — | Local computer networks |
+| ISCC | IEEE ISCC | IEEE | C | — | — | Symposium on computers & comms |
+| APNet | ACM APNet | ACM | C | — | 會議等級C | Asia-Pacific networking workshop |
+| HotNets | ACM HotNets | ACM | C | — | — | Vision papers, networking |
+| MSN | IEEE MSN | IEEE | C | — | — | Mobility, sensing, networking |
 
 ---
 
-## 6. Medicine & Health Sciences
+## 3. Network & Information Security — Journals
 
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *The Lancet* | Elsevier | 90-170 | Highest standards, global health |
-| *BMJ (British Medical Journal)* | BMJ | 90-100 | Clinical research, public health policy |
-| *Medical Education* | Wiley | 5-7 | Medical education research |
-| *Academic Medicine* | AAMC | 6-8 | Medical education, academic medicine |
-| *BMC Medical Education* | Springer | 3-4 | Open access, medical education |
-| *Advances in Health Sciences Education* | Springer | 3-5 | Health sciences education theory |
+### Tier A
 
----
+| Abbrev. | Journal | Publisher | CCF | Inst. | Notes |
+|---------|---------|-----------|-----|-------|-------|
+| TDSC | IEEE Trans. on Dependable and Secure Computing | IEEE | A | 期刊A類 | Dependability + security |
+| TIFS | IEEE Trans. on Information Forensics and Security | IEEE | A | 期刊A類 | Digital forensics, network security |
+| JoC | Journal of Cryptology | Springer | A | — | Theoretical cryptography |
 
-## 7. Information Systems (Senior Scholars' Basket of 11)
+### Tier B
 
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *MIS Quarterly* | MIS Quarterly | 7-9 | Theory-driven empirical research, design science; rigorous quantitative and qualitative methods |
-| *Information Systems Research* | INFORMS | 5-7 | Analytical, behavioral, and design science; strong methodological standards |
-| *Journal of Management Information Systems* | Taylor & Francis | 5-7 | Management-oriented IS research, theory and practice |
-| *Journal of the Association for Information Systems* | AIS | 4-6 | Broad IS topics, AIS flagship journal |
-| *European Journal of Information Systems* | Taylor & Francis | 8-10 | European and international IS perspectives, pluralist methodologies |
-| *Information Systems Journal* | Wiley | 6-8 | Qualitative and interpretive IS research, socio-technical perspectives |
-| *Journal of Information Technology* | SAGE | 7-10 | IT strategy, policy, and organizational impact |
-| *Journal of Strategic Information Systems* | Elsevier | 8-11 | Strategic role of IS, digital transformation, organizational change |
-| *Decision Support Systems* | Elsevier | 6-8 | Analytics, decision-making, DSS design and evaluation |
-| *Information & Management* | Elsevier | 8-11 | IS management, technology adoption, organizational impact |
-| *Information and Organization* | Elsevier | 5-7 | Socio-material perspectives, qualitative and interpretive research |
+| Abbrev. | Journal | Publisher | CCF | Inst. | Notes |
+|---------|---------|-----------|-----|-------|-------|
+| TOPS | ACM Trans. on Privacy and Security | ACM | B | — | Privacy, access control |
+| C&S | Computers & Security | Elsevier | B | 期刊A類 (JCR Q1) | Applied security; P4/SmartNIC security |
+
+### Tier C
+
+| Abbrev. | Journal | Publisher | CCF | Notes |
+|---------|---------|-----------|-----|-------|
+| SCN | Security and Communication Networks | Wiley | C | Network security |
+| CLSR | Computer Law & Security Review | Elsevier | C | Policy + legal |
+| HCC | High-Confidence Computing | Elsevier | C | Trustworthy computing |
 
 ---
 
-## 8. Interdisciplinary
+## 4. Network & Information Security — Conferences
 
-| Journal | Publisher | Impact Factor Range | Typical Review Preferences |
-|---------|----------|-------------------|---------------------------|
-| *Nature* | Springer Nature | 50-70 | All natural sciences, highest standards |
-| *Science* | AAAS | 45-65 | All natural sciences, breakthrough discoveries |
-| *Proceedings of the National Academy of Sciences* | NAS | 10-12 | Interdisciplinary scientific research |
-| *PLOS ONE* | PLOS | 3-4 | Open access, methodological rigor as primary criterion |
-| *Science Advances* | AAAS | 13-15 | Interdisciplinary science, open access |
-| *Sustainability* | MDPI | 3-4 | Cross-disciplinary sustainability |
+### Tier A
+
+| Abbrev. | Conference | Org. | CCF | 115年 | Inst. |
+|---------|-----------|------|-----|-------|-------|
+| S&P | IEEE Symposium on Security and Privacy | IEEE | A | 頂尖 | 會議等級A |
+| CCS | ACM CCS | ACM | A | 頂尖 | 會議等級A |
+| USENIX Security | USENIX Security Symposium | USENIX | A | 頂尖 | 會議等級A |
+| CRYPTO | International Cryptology Conference | Springer | A | 頂尖 | 會議等級A |
+| EUROCRYPT | EUROCRYPT | Springer | A | 頂尖 | 會議等級A |
+| NDSS | Network and Distributed System Security | ISOC | A | 重要 | 會議等級B |
+| DSN | IEEE/IFIP DSN | IEEE | — | 頂尖 | 會議等級A |
+
+### Tier B–C
+
+| Abbrev. | Conference | Org. | CCF | Notes |
+|---------|-----------|------|-----|-------|
+| ACSAC | Annual Computer Security Applications Conf. | IEEE | B | Applied security |
+| ASIACCS | ACM AsiaCCS | ACM | — | 會議等級B (inst.) |
+| RAID | RAID Symposium | — | B | Intrusion detection |
+| BlackSeaCom | IEEE BlackSeaCom | IEEE | — | Regional; P4/SmartNIC security papers |
+| CNSM | IEEE CNSM | IEEE | — | Network/service management + security |
+
+---
+
+## 5. Computer Systems & Operating Systems (Selected)
+
+### Tier A Conferences
+
+| Abbrev. | Conference | Org. | CCF | 115年 | Inst. |
+|---------|-----------|------|-----|-------|-------|
+| OSDI | USENIX OSDI | USENIX | A | 頂尖 | 會議等級A |
+| SOSP | ACM SOSP | ACM | A | 頂尖 | 會議等級A |
+| USENIX ATC | ACM SIGOPS ATC | ACM | A | 頂尖 (listed as "USENIX Technical Conference") | 會議等級A |
+| EuroSys | ACM EuroSys | ACM | A | 頂尖 | 會議等級A |
+
+### Tier A–B Journals
+
+| Abbrev. | Journal | Publisher | CCF | Notes |
+|---------|---------|-----------|-----|-------|
+| TOCS | ACM Trans. on Computer Systems | ACM | A | Systems flagship |
+| TPDS | IEEE Trans. on Parallel and Distributed Systems | IEEE | A | Distributed systems |
+| ACM CSUR | ACM Computing Surveys | ACM | — | 期刊A類; survey venue |
+
+### Tier B–C Conferences (relevant to research)
+
+| Abbrev. | Conference | Org. | CCF | Notes |
+|---------|-----------|------|-----|-------|
+| ICDCS | IEEE ICDCS | IEEE | B | Distributed computing; 會議等級A (inst.) |
+| PODC | ACM PODC | ACM | B | Distributed computing theory; 會議等級A (inst.) |
+| NFV-SDN | IEEE NFV-SDN | IEEE | — | SDN/NFV; 會議等級C |
+| EuroP4 | EuroP4 Workshop (CoNEXT) | ACM | — | P4-specific workshop |
+
+---
+
+## 6. Aerospace & Transport (Cross-Domain)
+
+| Abbrev. | Journal | Publisher | CCF | Inst. | Notes |
+|---------|---------|-----------|-----|-------|-------|
+| TAES | IEEE Trans. on Aerospace and Electronic Systems | IEEE | — | 期刊B類 (JCR Q2) | LEO satellite systems |
+| CJA | Chinese Journal of Aeronautics | Elsevier | — | 期刊B類 (JCR Q2) | Aerospace engineering |
+| Space: S&T | Space: Science & Technology | AAAS/BAS | — | 期刊C類 | LEO constellation design |
+| Aerospace | Aerospace (MDPI) | MDPI | — | 期刊C類 | Satellite thermal/systems |
+| Scientific Reports | Scientific Reports | Nature | — | 期刊C類 (Neg-A) | Broad; NOT 期刊A despite Nature |
+| IEEE Access | IEEE Access | IEEE | — | 期刊C類 (Neg-A) | Open access; downgraded |
+
+> **Neg-A warning:** IEEE Access and Scientific Reports are on the institutional negative list — they cannot count as 期刊A類 regardless of JCR quartile.
+
+---
+
+## 7. Interdisciplinary / High-Impact
+
+| Journal | Publisher | IF Range | Notes |
+|---------|-----------|---------|-------|
+| *Nature* | Springer Nature | 50–70 | Highest standards; all natural sciences |
+| *Science* | AAAS | 45–65 | All natural sciences |
+| *Nature Communications* | Springer Nature | 14–17 | Broad scope, open access |
+| *PNAS* | NAS | 10–12 | Interdisciplinary research |
+| *IEEE Communications Magazine* | IEEE | 8–10 | Networking vision/tutorials |
+| *ACM SIGCOMM CCR* | ACM | — | Networking community newsletter; short papers |
+| *IEEE Network* | IEEE | 8–10 | Networking magazine |
+| *IEEE Communications Surveys & Tutorials (COMST)* | IEEE | 30+ | Survey venue; 期刊A類 (JCR Q1) |
 
 ---
 
 ## Usage Guide
 
+### Three-System Cross-Reference Logic
+
+When assessing a paper's venue quality, check all three ranking systems:
+
+1. **CCF grade (A/B/C):** International community consensus
+2. **115年 institutional list (頂尖/重要):** Determines doctoral credit at the user's institution
+3. **Inst. grade (會議A/B/C, 期刊A/B/C):** Aligned with JCR quartile + negative lists (rules at the top of this file)
+
 ### Logic for Selecting Journals for the Journal-Fit Reviewer
 
-1. **Match the discipline first**: Find the corresponding journal list from the paper's primary discipline
-2. **Then match quality**: Select an appropriate tier of journal based on the paper's quality
-3. **Consider context**: Taiwan or Asian research may be better suited to journals with regional focus
-4. **Consider methodology**: Quantitative research may be better suited to certain journals, qualitative research to others
+- If the paper targets CCF-A + 會議等級A → assign the Journal-Fit Reviewer persona from that venue (e.g., SIGCOMM TPC chair persona)
+- If CCF-B or 會議等級B → assign the persona from a strong B-tier venue (e.g., GLOBECOM area editor)
+- If the paper is a survey → prefer ACM CSUR or IEEE COMST persona
+
+### Key Discrepancies Between Systems
+
+| Venue | CCF | Inst. | Explanation |
+|-------|-----|-------|-------------|
+| SIGMETRICS/POMACS | B (Systems) | 會議等級A | Institution counts it as top-tier networking |
+| NDSS | A (Security) | 會議等級B | Institution rates it below S&P/CCS |
+| ICC/GLOBECOM | C | 會議等級B | Institution rates them higher than CCF |
+| IoT-J | C | 期刊A類 | JCR Q1 overrides CCF-C under institutional rules |
+| IEEE Access | — | 期刊C類 (Neg-A) | On negative list; cannot be 期刊A regardless of IF |
 
 ### Notes
 
-- Impact Factor is for reference only; baseline values differ across fields
-- Emerging fields may lack high-IF journals, but that does not mean the research is unimportant
-- Open access journals should not be assumed to be lower quality by default
-- This list cannot be exhaustive; `field_analyst_agent` can recommend more precisely matched journals based on the specific paper topic
-
----
-
-## 9. Asian & Regional Journals
-
-### Taiwan (TSSCI-Indexed)
-
-| Journal | Field | ISSN | Notes |
-|---------|-------|------|-------|
-| 教育研究集刊 (Bulletin of Educational Research) | Education | 1028-8708 | NTNU; top Taiwan education journal |
-| 高等教育 (Higher Education) | Higher Education | 1813-3282 | Taiwan HE policy and practice |
-| 課程與教學季刊 (Curriculum & Instruction Quarterly) | Curriculum Studies | 1560-1277 | Curriculum design and pedagogy |
-| 教育科學研究期刊 (Journal of Research in Education Sciences) | Education Sciences | 2073-753X | Broad education research scope |
-| 當代教育研究季刊 (Contemporary Educational Research Quarterly) | Education | 1814-4810 | NTNU; contemporary education issues |
-| 教育政策論壇 (Educational Policy Forum) | Education Policy | 1560-3601 | NCNU; policy analysis |
-| 教育心理學報 (Bulletin of Educational Psychology) | Educational Psychology | 1011-5714 | NTNU; psychological perspectives in education |
-| 測驗學刊 (Psychological Testing) | Psychometrics | 1609-4905 | Assessment and measurement |
-
-### Asia-Pacific
-
-| Journal | Field | Publisher | Impact |
-|---------|-------|-----------|--------|
-| Asia Pacific Education Review | Education | Springer | Q2 in Education; strong Asia focus |
-| Higher Education Policy | Higher Education | Springer/IAU | Q1-Q2; international HE policy |
-| Journal of Asian Public Policy | Public Policy | Taylor & Francis | Asian policy contexts |
-| Asia Pacific Journal of Education | Education | Taylor & Francis | Q2; pan-Asian education research |
-| International Journal of Educational Development | Development Education | Elsevier | Q1; includes Asia extensively |
-| Compare: A Journal of Comparative and International Education | Comparative Ed | Taylor & Francis | Q1; strong Asian coverage |
-| Asian Journal of Social Science | Social Sciences | Brill | Multidisciplinary Asian studies |
-
-### Open Access Options (by Field)
-
-| Field | OA Journal | Publisher | APC (USD) | Notes |
-|-------|-----------|-----------|-----------|-------|
-| Education | Frontiers in Education | Frontiers | ~$1,350 | Q2; fast review; broad scope |
-| Multidisciplinary | PLOS ONE | PLOS | ~$1,931 | Q1; accepts all fields; rigorous methodology focus |
-| Higher Education | Education Sciences | MDPI | ~$1,800 | Q2; HE section available |
-| Educational Technology | International Journal of Educational Technology in Higher Education | Springer | Free (funded) | Q1; excellent for ed-tech research |
-| Social Sciences | Social Sciences | MDPI | ~$1,600 | Q2; broad social science scope |
-| Asian Studies | Asian Education and Development Studies | Emerald | ~$3,350 | Q2; specifically Asian education development |
+- This list focuses on **Networking, Security, Systems, and Aerospace** — the user's research domains (P4, SDN, LEO satellite, QUIC, SmartNIC, fast reroute)
+- Impact Factors are approximate and fluctuate yearly
+- For fields not listed here, consult the full CCF 7th Edition directory or [`top_conf_list_115.csv`](top_conf_list_115.csv)

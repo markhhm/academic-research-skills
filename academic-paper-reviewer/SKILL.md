@@ -416,7 +416,8 @@ pointer; a changed target starts a new, explicitly non-comparable review id.
 | Reference | Purpose | Used By |
 |-----------|---------|---------|
 | `references/review_criteria_framework.md` | Structured review criteria framework (differentiated by paper type) | all reviewers |
-| `references/top_journals_by_field.md` | Top journal lists for major academic fields (Journal-Fit Reviewer role calibration) | field_analyst, eic |
+| `references/top_journals_by_field.md` | Top venues for networking, security & systems with CCF / 115年 / institutional grades (Journal-Fit Reviewer role calibration) | field_analyst, eic |
+| `references/top_conf_list_115.csv` | Full 115年 資工學院 頂尖/重要 conference list, all CS areas (source data for the table above) | field_analyst, eic |
 | `references/editorial_decision_standards.md` | Accept/Minor/Major/Reject criteria and decision matrix | eic, editorial_synthesizer |
 | `references/statistical_reporting_standards.md` | Statistical reporting standards + APA 7.0 format quick reference + red flag list | methodology_reviewer |
 | `references/quality_rubrics.md` | Criterion-bound narrative judgement for 7 review dimensions; every current live seat and Schema 6 package remains `NOT_CALIBRATED` because candidate-profile application is not wired | all reviewers |

@@ -1,0 +1,169 @@
+level,area,no,venue,citations_avg,citations_5y,citations_10y,note
+A,Algorithms & Theory,1,STOC - ACM Symposium on Theory of Computing,42.05,3.5,18.92,
+A,Algorithms & Theory,2,FOCS - IEEE Symposium on Foundations of Computer Science,34.78,2.3,15.06,
+A,Algorithms & Theory,3,SODA - Symposium on Discrete Algorithms,21.82,1.84,11.56,
+A,Algorithms & Theory,4,LICS - Logic in Computer Science,27.41,0.75,8.47,
+A,Algorithms & Theory,5,CCC - IEEE Conference on Computational Complexity,7.32,0.96,8.04,
+A,Algorithms & Theory,6,SOCG -- ACM Symposium on Computational Geometry,20.79,0.96,7.33,
+A,Artificial Intelligence,7,AAAI - National Conference on Artificial Intelligence,20.82,0.78,7.1,
+A,Artificial Intelligence,8,IJCAI - International Joint Conference on Artificial Intelligence,21.52,0.3,9.71,
+A,Artificial Intelligence,9,ICML - International Conference on Machine Learning,33.18,1.46,14.49,
+A,Artificial Intelligence,10,ICLR - International Conference on Learning Representations,28.7,,,111.02.21教評通過
+A,Computer Education,11,ITS - Intelligent Tutoring Systems,8.22,0.62,2.95,
+A,Computer Vision and Graphics,12,ICCV - International Conference on Computer Vision,29.66,0.04,11.32,
+A,Computer Vision and Graphics,13,CVPR - Computer Vision and Pattern Recognition,22.03,1.3,11.33,
+A,Computer Vision and Graphics,14,SIGGRAPH - Annual Conference on Computer Graphics,29.21,0.12,0.93,
+A,Computer Vision and Graphics,15,IEEE Visualization,18.5,N/A,0.61,
+A,Computer Vision and Graphics,16,I3D - ACM Symposium on interactive 3D Graphics and Games,31.13,1.54,9.56,
+A,Computer Vision and Graphics,17,SIGGRAPH Asia,N/A,N/A,N/A,
+A,Computer Vision and Graphics,18,European Conference on Computer Vision (ECCV),,,,113.01.09教評通過
+A,"Databases, Data Mining, Information Retrieval",19,KDD - Knowledge Discovery and Data Mining,33.58,1.5,12.51,
+A,"Databases, Data Mining, Information Retrieval",20,ICDE - International Conference on Data Engineering,16.79,0.77,7.73,
+A,"Databases, Data Mining, Information Retrieval",21,VLDB - Very Large Data Bases,44.42,0.33,23.99,
+A,"Databases, Data Mining, Information Retrieval",22,PODS - Symposium on Principles of Database Systems,40.88,1.84,18.21,
+A,"Databases, Data Mining, Information Retrieval",23,SIGMOD - International Conference on Management of Data,31.46,1.88,17.06,
+A,"Databases, Data Mining, Information Retrieval",24,SIGIR - Research and Development in Information Retrieval,26.54,1.07,11.45,
+A,"Databases, Data Mining, Information Retrieval",25,WWW - World Wide Web Conference,20.82,1.55,11.85,
+A,"Databases, Data Mining, Information Retrieval",26,USITS -- USENIX Symposium on Internet Technologies and Systems,78.55,N/A,N/A,
+A,Distributed & Parallel Computing,27,PODC - Symposium on Principles of Distributed Computing,23.42,0.91,8.64,
+A,Distributed & Parallel Computing,28,ICDCS - International Conference on Distributed Computing Systems,17.61,0.88,8.34,
+A,Distributed & Parallel Computing,29,PPoPP - Principles and Practice of Parallel Programming,17.63,2,13.44,104.7.28教評會通過
+A,"Hardware, VLSI and CAD",30,ISSCC - International Solid State Circuits Conference,5.35,1.55,6.62,
+A,"Hardware, VLSI and CAD",31,DAC - Design Automation Conference,13.62,1.72,7.34,
+A,"Hardware, VLSI and CAD",32,ICCAD - International Conference on Computer Aided Design,22.28,N/A,9.62,
+A,Computer Architecture and Code Generation,33,ISCA - International Symposium on Computer Architecture,24.37,2.27,21.15,
+A,Computer Architecture and Code Generation,34,MICRO - International Symposium on Microarchitecture,34.99,0,19.03,
+A,Computer Architecture and Code Generation,35,ASPLOS - Architectural Support for Programming Languages and Operating Systems,25.66,3.29,15.9,
+A,Computer Architecture and Code Generation,36,HPCA - International Symposium on High-Performance Computer Architecture,25.19,1.45,14.71,
+A,Human-Computer Interaction,37,CHI - Computer Human Interaction,15.87,0.76,6.27,
+A,Human-Computer Interaction,38,CSCW - Conference on Computer Supported Cooperative Work,35.57,1.43,7.58,
+A,Human-Computer Interaction,39,UIST - User Interface Software and Technology,30.47,0.81,12.47,
+A,Machine Learning & Pattern Recognition,40,NIPS - Neural Information Processing Systems,26.66,2,13.72,
+A,Machine Learning & Pattern Recognition,41,ICML - International Conference on Machine Learning,33.18,1.46,14.49,
+A,Machine Learning & Pattern Recognition,42,UAI - Uncertainty in Artificial Intelligence,23.62,2.09,9.91,110.9.13教評通過
+A,Multimedia,43,MM - ACM Multimedia Conference,13.74,0.59,5.8,
+A,Multimedia,44,DCC - Data Compression Conference,7.04,0.36,2.09,
+A,Natural Language & Speech,45,ACL - Meeting of the Association for Computational Linguistics,21.38,0.53,9.46,
+A,Natural Language & Speech,46,NIPS - Neural Information Processing Systems,26.66,2,13.72,
+A,Natural Language Processing,47,EMNLP-Empirical Methods in Natural Language Processing,,,,113.3.12教評通過
+A,Natural Language Processing,48,NAACL-North American Chapter of the Association for Computational Linguistics,,,,113.3.12教評通過
+A,Networks & Communications,49,MOBICOM - Mobile Computing and Networking,89.22,1.71,20.72,
+A,Networks & Communications,50,SIGCOMM - ACM SIGCOMM Conference,52.86,2.22,31.74,
+A,Networks & Communications,51,INFOCOM - IEEE INFOCOM,29.06,1.21,12.93,
+A,Networks & Communications,52,MobiHoc - Mobile Ad Hoc Networking and Computing,55.28,1.14,24.6,
+A,Networks & Communications,53,SIGMETRICS - Measurement and Modeling of Computer Systems,19.91,1.68,13.04,
+A,Operating Systems and Embedded Systems,54,OSDI - Operating Systems Design and Implementation,65.94,0,29.73,
+A,Operating Systems and Embedded Systems,55,SOSP - Symposium on Operating Systems Principles,51.54,0.5,18.68,
+A,Operating Systems and Embedded Systems,56,USENIX - USENIX Technical Conference,27.85,9.5,15.39,
+A,Operating Systems and Embedded Systems,57,RTSS - IEEE Real-Time Systems Symposium,23.71,0.51,8.22,
+A,Operating Systems and Embedded Systems,58,EuroSys-European Conference on Computer Systems,32,14.4,49.68,110.5.17教評通過
+A,Operating Systems and Embedded Systems,59,EMSOFT-International Conference on Embedded Software,25,,,111.02.21教評通過
+A,Programming Languages,60,POPL - Symposium on Principles of Programming Languages,54.15,2.09,15.39,
+A,Programming Languages,61,ECOOP - European Conference on Object-Oriented Programming,28.02,2.66,11.53,
+A,Programming Languages,62,PLDI - SIGPLAN Conference on Programming Language Design and Implementation,36.15,3.87,25.93,
+A,Programming Languages,63,ICLP/JICSLP) International Conference on Logic programming,12.6,0.41,3.36,
+A,Security & Privacy,64,CRYPTO - International Crytology Conference,51.43,3.78,20.28,
+A,Security & Privacy,65,S&P - IEEE Symposium on Security and Privacy,47.97,2.09,21.39,
+A,Security & Privacy,66,CCS - Computer and Communications Security,33.63,1.37,12.02,
+A,Security & Privacy,67,EUROCRYPT - Theory and Application of Cryptographic Techniques,36.26,4.76,24.44,
+A,Security & Privacy,68,USENIX Security Symposium,41.44,1.59,19.09,
+A,Security & Privacy,69,DSN - Dependable Systems and Networks,13.1,0.55,7.12,103.04.16教評會通過
+A,Software Engineering,70,CAV - Computer Aided Verification,30.51,2.49,13.83,
+A,Software Engineering,71,ICSE - International Conference on Software Engineering,15.98,0.71,6.51,
+B,Algorithms & Theory,1,COLT - Computational Learning Theory,22.22,0.37,8.17,
+B,Algorithms & Theory,2,CONCUR - International Conference on Concurrency Theory,19.97,1.13,6.97,
+B,Algorithms & Theory,3,ESA -- European Symposium on Algorithm,12.14,0.86,6.32,
+B,Algorithms & Theory,4,STACS - Symposium on Theoretical Aspects of Computer Science,11.26,1,6.97,
+B,Algorithms & Theory,5,ICALP - International Congress of Mathematicans,14.83,1.59,7.79,
+B,Algorithms & Theory,6,COCOON - International Computing and Combinatorics Conference,5.33,0.46,3.07,104.7.28教評通過
+B,Algorithms & Theory,7,IEEE International Symposium on Information Theory,3.71,0.61,3.74,104.9.17教評通過
+B,Artificial Intelligence,8,KR - Principles of Knowledge Representation and Reasoning,29.33,1.21,7.57,
+B,Artificial Intelligence,9,UAI - Uncertainty in Artificial Intelligence,23.62,2.09,9.91,110.9.13教評通過刪除
+B,Artificial Intelligence,10,Machine Intelligence,52.12,N/A,N/A,
+B,Artificial Intelligence,11,ICRA - International Conference on Robotics and Automation,10.57,0.65,4.3,
+B,Artificial Intelligence,12,ICMAS - International Conference on Multiagent Systems,29.16,N/A,N/A,
+B,Artificial Intelligence,13,AAMAS - Autonomous Agents & Multiagent systems,19.82,0,9.81,
+B,Artificial Intelligence,14,ACM SIGEVO Genetic and Evolutionary Computation Conference (GECCO),6.29,1.13,3.67,102.11.18教評通過
+B,Artificial Intelligence,15,IEEE Congress on Evolutionary Computation(CEC),7.45,0.64,3.02,102.11.18教評通過
+B,Artificial Intelligence,16,IROS - IEEE/RSJ International Conference on Intelligent Robots and Systems,,,,107.09.14教評通過
+B,Computer Education,17,CSCL - Computer Support for Collaborative Learning,18.38,0,14.73,
+B,Computer Education,18,AIED - Artificial Intelligence in Education,12.06,0,4.01,
+B,Computer Vision and Graphics,19,ACM/Eurographics Symposium on Computer Animation (SCA),27.26,1,14.65,
+B,Computer Vision and Graphics,20,EGSR - Eurographics Symposium on Rendering,30.14,N/A,12.66,
+B,Computer Vision and Graphics,21,INFOVIS - IEEE Information Visualization Conference,19.03,N/A,11.4,
+B,Computer Vision and Graphics,22,GI - Graphics Interface,19.22,0,6.92,
+B,Computer Vision and Graphics,23,FGR - IEEE International Conference on Automatic Face and Gesture Recognition,20.85,0.38,4.41,
+B,Computer Vision and Graphics,24,BMVC - British Machine Vision Conference,,,,113.09.03教評通過
+B,"Databases, Data Mining, Information Retrieval",25,CIKM - International Conference on Information and Knowledge Management,10.86,0.44,4.71,
+B,"Databases, Data Mining, Information Retrieval",26,ICDM - IEEE International Conference on Data Mining,7.33,0.16,3.33,
+B,"Databases, Data Mining, Information Retrieval",27,ICDT - International Conference on Database Theory,26.32,0.81,9.27,
+B,"Databases, Data Mining, Information Retrieval",28,EDBT - Extending Database Technology,13.09,1.16,5.08,
+B,"Databases, Data Mining, Information Retrieval",29,TREC - Text REtrieval Conference,16.6,0,5.65,
+B,"Databases, Data Mining, Information Retrieval",30,WSDM - ACM International Conference on Web Search and Data Mining,,,,107.09.14教評通過
+B,Distributed & Parallel Computing,31,FTCS - Symposium on Fault-Tolerant Computing,20.77,N/A,N/A,
+B,Distributed & Parallel Computing,32,SPAA - ACM Symposium on Parallel Algorithms and Architectures,18.02,1.81,7.37,
+B,Distributed & Parallel Computing,33,ICS - International Conference on Supercomputing,16.77,1.56,9.24,
+B,Distributed & Parallel Computing,34,SC - Supercomputing Conference,12.47,1.31,5.81,
+B,Distributed & Parallel Computing,35,HPDC - IEEE International Symposium on High Performance Distributed Computing,17.95,1.29,5.38,
+B,Distributed & Parallel Computing,36,ICPP,8.3,0.35,3.44,101.2.20教評通過
+B,"Hardware, VLSI and CAD",37,ISPD - International Symposium on Physical Design,21.38,0.8,8.5,
+B,"Hardware, VLSI and CAD",38,VTS -- VLSI Test Symposium,10.04,0.48,4.26,
+B,"Hardware, VLSI and CAD",39,ISLPED - International Symposium on Low Power Electronics and Design,15.92,0.57,4.62,
+B,"Hardware, VLSI and CAD",40,"DATE - Design, Automation and Test in Europe Conference",13.76,N/A,N/A,106.05.24教評通過
+B,"Hardware, VLSI and CAD",41,CICC - IEEE Custom Integrated Circuits Conference,,,,106.11.03教評會通過
+B,Computer Architecture and Code Generation,42,PACT - International Conference on Parallel Architectures and Compilation Techniques,12.36,0.42,6.42,
+B,Computer Architecture and Code Generation,43,CGO - Symposium on Code Generation and Optimization,13.31,1.02,8.66,
+B,Computer Architecture and Code Generation,44,LCPC - Languages and Compilers for Parallel Computing,11.52,0.3,3.53,
+B,Human-Computer Interaction,45,ECSCW - European Conference on Computer Supported Cooperative Work,34.79,1,10.7,
+B,Human-Computer Interaction,46,UbiComp(HUC) - Ubiquitous Computing/Handheld and Ubiquitous Computing,24.41,0.63,10.29,
+B,Human-Computer Interaction,47,ISWC - International Symposium on Wearable Computers,13.97,0.19,4.79,
+B,Human-Computer Interaction,48,MobileHCI-International Conference on Human-Computer Interaction with Mobile Devices and Services,,,,106.09.15教評通過
+B,Machine Learning & Pattern Recognition,49,COLT - Computational Learning Theory,22.22,0.37,8.17,
+B,Machine Learning & Pattern Recognition,50,ECML - The European Conference on Machine Learning,17.17,0.75,6.95,
+B,Machine Learning & Pattern Recognition,51,ICPR - International Conference on Pattern Recognition,5.53,0.38,2.15,
+B,Machine Learning & Pattern Recognition,52,ACML - Asian Conference on Machine Learning,,,,107.09.14教評通過
+B,Machine Learning & Pattern Recognition,53,IJCNN- International Joint Conference on Neural Networks,,,,111.08.29教評通過
+B,Multimedia,54,ICIP - International Conference on Image Processing,8.83,0.28,1,
+B,Multimedia,55,Storage and Retrieval for Image and Video Databases,11.37,2.93,5.07,
+B,Multimedia,56,IEEE International Conference on Multimedia & Expo (ICME),5.27,0.29,2.46,
+B,Multimedia,57,VCIP - IEEE Conference on Visual Communications and Image Processing,7.59,0,7.25,103.05.21教評通過
+B,Multimedia,58,ICMR-ACM International Conference on Multimedia Retrieval (long papers),,,,111.04.22教評通過
+B,Natural Language & Speech,59,"ICASSP - International Conference on Acoustics, Speech, and Signal Processing",5.57,0.52,2.92,
+B,Natural Language Processing,60,EACL-Conference of the European Chapter of the Association for Computational Linguistics,,,,113.3.12教評通過
+B,Natural Language Processing,61,COLING-International Conference on Computational Linguistics,,,,113.3.12教評通過
+B,Natural Language Processing,62,Findings_ACL-Findings of the Association for Computational Linguistics: ACL,,,,113.3.12教評通過
+B,Natural Language Processing,63,Findings EMNLP-Findings of the Association for Computational Linguistics: EMNLP,,,,113.3.12教評通過
+B,Natural Language Processing,64,Findings_NAACL-Findings of the Association for Computational Linguistics: NAACL,,,,113.3.12教評通過
+B,Natural Language Processing,65,Conference on Language Modeling (COLM),,,,115.3.23教評通過
+B,Networks & Communications,66,SenSys - Conference On Embedded Networked Sensor Systems,36.28,0.73,16.68,
+B,Networks & Communications,67,IPTPS - Peer-to-Peer Systems,64.52,9,38.48,
+B,Networks & Communications,68,ICNP - International Conference on Network Protocols,20.41,0.46,7.61,
+B,Networks & Communications,69,WCNC - IEEE Wireless Communications & Networking Conference,22.4,0,8.57,
+B,Networks & Communications,70,MobiSys,32.58,5.63,20.46,101.2.20教評通過
+B,Networks & Communications,71,ICC - IEEE International Conference on Communications,9.51,1.79,4.81,102.6.20教評通過；僅限Oral發表之論文得計點。
+B,Networks & Communications,72,GLOBECOM- IEEE Global Communications Conference,14.12,,,108.07.25.教評通過
+B,Networks & Communications,73,HPSR-IEEE International Conference on High Performance Switching and Routing,,2.15,,112.05.15 教評通過
+B,Networks & Communications,74,IEEE/IFIP Network Operations and Management Symposium (NOMS),,,,113.01.09 教評通過
+B,Operating Systems and Embedded Systems,75,HotOS(WWOS) - Workshop on Workstation Operating Systems,22.18,0,13.25,
+B,Operating Systems and Embedded Systems,76,Hybrid Systems,16.53,2.54,7.19,
+B,Operating Systems and Embedded Systems,77,USENIX Conference on File and Storage Technologies,26.84,2.42,13.84,
+B,Operating Systems and Embedded Systems,78,EMSOFT - International Workshop on Embedded Systems,13.18,8.21,8.21,
+B,Operating Systems and Embedded Systems,79,"CASES - Compilers, Architecture, and Synthesis for Embedded Systems",10.97,5.89,5.89,
+B,Operating Systems and Embedded Systems,80,RTAS - IEEE Real Time Technology and Applications Symposium,20.03,3.11,3.11,
+B,Programming Languages,81,FPCA - Functional Programming Languages and Computer Architecture,36.39,N/A,N/A,
+B,Programming Languages,82,LFP - ACM Conference on LISP and Functional Programming,29.66,N/A,N/A,
+B,Programming Languages,83,AOSD - Aspect-Oriented Software Development,22.41,0.83,11.72,
+B,Programming Languages,84,OOPSLA - Conference on Object-Oriented PL,9.52,0.96,6.6,
+B,Programming Languages,85,ESOP - European Symposium on Programming,17.83,1.7,11.69,
+B,Security & Privacy,86,NDSS - Network and Distributed System Security Symposium,38.67,0.5,27.11,
+B,Security & Privacy,87,CSFW - Computer Security Foundations Workshop,23.45,1.75,12.04,
+B,Security & Privacy,88,ASIACRYPT - ASIACRYPT,20.49,1.58,11.83,
+B,Security & Privacy,89,CHES - Cryptographic Hardware and Embedded Systems,26.25,1.2,12.96,
+B,Security & Privacy,90,FSE - Fast Software Encryption,19.57,2.39,9.76,
+B,Security & Privacy,91,"ASIACCS: ACM Symposium on Information, Computer and Communications Security",3.63,N/A,N/A,
+B,Software Engineering,92,ICSM - International Conference on Software Maintenance,11.77,0.64,4.68,
+B,Software Engineering,93,TACAS - Tools and Algorithms for Construction and Analysis of Systems,22.38,2.16,14.08,
+B,Software Engineering,94,ASE - Automated Software Engineering,9.6,0.47,5.43,
+B,Optics & Photonics,95,OFC - Optical Fiber Communication conference,,,,107.12.24教評通過
+B,Medical image/ computer-aided diagnosis,96,International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI),,,,114.03.24教評通過
+B,Knowledge representation,97,International Conference On Formal Ontology in Information Systems (FOIS),,,,114.05.13教評通過

@@ -235,6 +235,7 @@ Step 6: Revision Instructions
 - Judge whether wording and organization allow interpretation and verification.
 - Separate copyediting from substantive weaknesses and avoid language discrimination.
 - Apply target format rules only when an applicable criterion source is identified.
+- For an IEEE INFOCOM target, `references/infocom_intro_style.md` is the criterion source for §1 style.
 
 ### Structured Review Report Format
 
